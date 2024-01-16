@@ -15,11 +15,12 @@ int main()
     int add = 0;
     int total = 0;
 
-    sprintf(binS,"%d", bin);
-    int x = 0;
+    sprintf(binS,"%d", bin); // copy int to str
 
     printf("%s\n", binS);
 
+    // loop through binS compute decimal
+    int x = 0;
     for (int i = strlen(binS); i > 0; i--)
     {
         num = binS[x] - '0';
