@@ -18,7 +18,7 @@ int main()
     sprintf(binS,"%d", bin);
     int x = 0;
 
-   printf("%s\n", binS);
+    printf("%s\n", binS);
 
     for (int i = strlen(binS); i > 0; i--)
     {
